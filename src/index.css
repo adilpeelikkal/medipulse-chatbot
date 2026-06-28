@@ -1,0 +1,29 @@
+/* STREAMING_CHUNK: Applying custom CSS utilities and font definitions... */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+body {
+font-family: 'Plus Jakarta Sans', sans-serif;
+}
+code {
+font-family: 'JetBrains Mono', monospace;
+}
+}
+
+/* Custom scrollbars for professional clean UI appearance */
+::-webkit-scrollbar {
+width: 6px;
+height: 6px;
+}
+::-webkit-scrollbar-track {
+background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+background: rgba(148, 163, 184, 0.3);
+border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: rgba(148, 163, 184, 0.5);
+}
